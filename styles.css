@@ -1,0 +1,72 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+.hlavicka {
+    width: 100%;
+    height: 100vh;
+    background-image: url(fakulta.jpg) ;
+    background-size: cover;  
+}
+.nadpis {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: xx-large;
+    background-color:rgba(0, 0, 0, 0.495);
+    color: rgb(255, 0, 0);
+}
+.text {
+    text-align: center;
+    font-size: large;
+    padding: 1%;
+}
+
+.odstavec-blok
+{
+    background: greenyellow;
+    width: 60%;
+    height: 700px;
+}
+
+.image-block
+{
+background-image: url(masaryk-university-1080_00003.1920x1080.fit.q85.jpg);
+}
+
+.image-block_content
+{
+
+}
+
+.image-block_content .text
+{
+
+}
+
+.image-block_content:hover
+{
+
+}
+
+.notes-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.notes-col
+{
+
+}
+
+.notes-col .text
+{
+    color: white;
+}
